@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+body{
+    background: url(imagens/bg.png);
+    color: white;
+}
+
+a{
+    color: cyan;
+}
+
+a:hover{
+    color: yellow;
+    transition: 2.5s;
+}
+
+footer#rodape{
+    text-align: center;
+}
