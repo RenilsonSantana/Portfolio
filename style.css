@@ -5,6 +5,58 @@ body{
     color: white;
 }
 
+.menu{
+    
+}
+
+ul{
+    text-align: right;
+    background-color: black;
+    padding: 12px;
+    box-shadow: 2px 2px 5px #555;
+    border-radius: 7px;
+}
+
+ul a img{
+    float: right;
+    padding-top: 5px;
+    height: 30px;
+    width: 30px;
+    margin: 0px 3px;
+}
+
+li{
+    display: inline-block;
+    border: 1px solid #223;
+    padding: 10px;
+    box-shadow: 1px 1px 5px #223;
+    border-radius: 5px;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12pt;
+}
+
+section#corpo{
+    margin: auto;
+    width: 70%;
+    text-align: justify;
+    box-shadow: 1px 1px 5px black;
+    background-color: rgba(0,0,0,0.35);
+}
+
+div#carta{
+    padding: 0 20px;
+}
+
+p img{
+    width: 20px;
+    height: 20px;
+}
+
 a{
     color: cyan;
 }
