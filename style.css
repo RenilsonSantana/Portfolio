@@ -46,10 +46,18 @@ section#corpo{
     text-align: justify;
     box-shadow: 1px 1px 5px black;
     background-color: rgba(0,0,0,0.35);
+    border-radius: 10px;
 }
 
 div{
-    padding: 0 20px;
+    padding: 2px 20px;
+}
+
+h1{
+    padding-top: 5px;
+    text-align: center;
+    box-shadow: royalblue 1px 1px 500px;
+    padding-bottom: 5px;
 }
 
 p img{
