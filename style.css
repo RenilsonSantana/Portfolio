@@ -100,7 +100,7 @@ footer#rodape{
     text-align: center;
 }
 
-div#carta img{
+img.perfil{
     display: block;
     float: left;
     border-radius: 105px;
