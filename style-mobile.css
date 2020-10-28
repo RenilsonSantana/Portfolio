@@ -1,0 +1,107 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Turret+Road:wght@200&display=swap');
+
+body{
+    background: url(imagens/bg.png);
+    color: white;
+}
+
+.menu{
+    
+}
+
+ul{
+    text-align: right;
+    background-color: black;
+    padding: 20px 0px;
+    margin-left: -28px;
+    margin-top: -20px;
+    box-shadow: 2px 2px 5px #555;
+    border-radius: 7px;
+    width: 110%;
+}
+
+ul a img{
+    float: right;
+    padding-top: 5px;
+    height: 30px;
+    width: 30px;
+    margin: 0px 3px;
+}
+
+li{
+    display: inline-block;
+    border: 1px solid #223;
+    padding: 10px;
+    box-shadow: 1px 1px 5px #223;
+    border-radius: 5px;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12pt;
+}
+
+section#corpo{
+    margin: 0px auto;
+	width: 95%;
+	box-shadow: 0px 0px 20px #333;
+	background-color: rgba(0,0,0,0.35);
+	padding-right: 5px; 
+	border-radius: 15px;
+}
+
+div {
+    padding: 2px 20px;
+}
+
+h1{
+    font-family: 'Turret Road', cursive;
+    font-weight: bold;
+    padding-top: 7px;
+    text-align: center;
+    box-shadow: royalblue 1px 1px 500px;
+    padding-bottom: 7px;
+    background-color: black;
+    margin-left: -15px;
+    width: 103%;
+    text-shadow: 1px 1px 3px cyan;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+}
+
+p#txt{
+    text-indent: 30px;
+}
+
+p img{
+    width: 20px;
+    height: 20px;
+}
+
+a{
+    color: cyan;
+}
+
+a:hover{
+    color: yellow;
+    transition: 2.5s;
+}
+
+footer#rodape{
+    text-align: center;
+}
+
+img.perfil{
+    display: block;
+    float: left;
+    border-radius: 105px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
