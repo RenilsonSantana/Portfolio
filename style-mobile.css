@@ -19,7 +19,7 @@ ul{
     margin-top: -20px;
     box-shadow: 2px 2px 5px #555;
     border-radius: 7px;
-    width: 110%;
+    width: 115%;
 }
 
 ul a img{
@@ -67,13 +67,14 @@ h1{
     padding-bottom: 7px;
     background-color: black;
     margin-left: -15px;
-    width: 103%;
+    width: 110%;
     text-shadow: 1px 1px 3px cyan;
 }
 
-p{
+#corpo p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 13pt;
+    text-align: justify;
 }
 
 p#txt{
@@ -102,6 +103,7 @@ img.perfil{
     display: block;
     float: left;
     border-radius: 105px;
-    margin-right: 20px;
+    margin-right: 15px;
     margin-bottom: 5px;
+    width: 50%;
 }
