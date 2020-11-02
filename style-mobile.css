@@ -11,42 +11,8 @@ body{
     
 }
 
-ul{
-    text-align: right;
-    background-color: black;
-    padding: 20px 0px;
-    margin-left: -28px;
-    margin-top: -20px;
-    box-shadow: 2px 2px 5px #555;
-    border-radius: 7px;
-    width: 115%;
-}
-
-ul a img{
-    float: right;
-    padding-top: 5px;
-    height: 30px;
-    width: 30px;
-    margin: 0px 3px;
-}
-
-li{
-    display: inline-block;
-    border: 1px solid #223;
-    padding: 10px;
-    box-shadow: 1px 1px 5px #223;
-    border-radius: 5px;
-}
-
-li a{
-    color: white;
-    text-decoration: none;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 12pt;
-}
-
 section#corpo{
-    margin: 0px auto;
+    margin: 20px auto;
 	width: 95%;
 	box-shadow: 0px 0px 20px #333;
 	background-color: rgba(0,0,0,0.35);
@@ -73,7 +39,7 @@ h1{
 
 #corpo p{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 13pt;
+    font-size: 12pt;
     text-align: justify;
 }
 
@@ -106,4 +72,109 @@ img.perfil{
     margin-right: 15px;
     margin-bottom: 5px;
     width: 50%;
+}
+
+.menu-mobile{
+    width: 100%;
+    background-color: black;
+    position: relative;
+	margin: -10px;
+	cursor:pointer;
+}
+
+.title{
+    margin-top: 15px;
+	width:64px;
+	box-sizing:border-box;
+	background: #223;
+	padding:14px;
+	border-radius:50px;
+	position: relative;
+	box-shadow: 1px 1px 5px #223;
+	color: white;
+	font-family: Impact;
+}
+
+li{
+	font-size:18px!important;
+	display: inline-block;
+    border: 1px solid #223;
+    padding: 7px;
+    box-shadow: 1px 1px 5px #223;
+    border-radius: 5px;
+    width: 94%;
+}
+
+.dropdown{
+	background-color: rgba(0,0,0,0.35);
+	border-radius:6px;
+	box-shadow: 1px 1px 5px #223;
+	margin-top:15px;
+	max-height:0;
+	overflow: hidden;
+    transition:all .5s;
+    padding: 0px;
+}
+
+.down{
+	max-height:150px;
+}
+
+.arrow{
+	position:absolute;
+	right:10px;
+	bottom:-24px;
+	display:none;
+}
+
+.arrow.gone{
+	display:block;
+}
+
+ul{
+    text-align: center;
+    background-color: black;
+    padding: 20px 0px;
+    box-shadow: 1px 1px 5px #223;
+    border-radius: 10px;
+}
+
+li a{
+	padding:15px 14px;
+	margin:0;
+	transition:all .1s;
+	color: white;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12pt;
+}
+
+a:hover{
+	-webkit-transform:scale(1.05);
+	color:rgba(255,255,255,0.8);
+	box-shadow:0 0 30px -10px #000;
+	color: yellow;
+    transition: 2.5s;
+}
+
+ul.links{
+    position: absolute;
+    float: right;
+    margin-top: -47px;
+    margin-left: 55px;
+    box-shadow: 0px 0px 0px black;
+    width: 120px;
+}
+
+ul a img{
+    float: right;
+    padding-top: 5px;
+    height: 30px;
+    width: 30px;
+    margin: 0px 3px;
+    display: inline-block;
+}
+
+.menu{
+    display: none;
 }
