@@ -29,7 +29,7 @@ h1{
     font-weight: bold;
     padding-top: 7px;
     text-align: center;
-    box-shadow: royalblue 1px 1px 5px;
+    box-shadow: cyan 1px 1px 2px;
     padding-bottom: 7px;
     background-color: black;
     margin-left: -15px;
@@ -39,7 +39,7 @@ h1{
 
 #corpo p{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 12pt;
+    font-size: 11pt;
     text-align: justify;
 }
 
