@@ -35,6 +35,7 @@ h1{
     margin-left: -15px;
     width: 110%;
     text-shadow: 1px 1px 3px cyan;
+    border-radius: 10px;
 }
 
 #corpo p{
