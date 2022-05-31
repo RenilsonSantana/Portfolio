@@ -1,0 +1,20 @@
+[0622/205228.598:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Acesso negado. (0x5)
+[0622/205229.376:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Acesso negado. (0x5)
+[0622/205229.380:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0622/205229.382:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0622/211239.679:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Acesso negado. (0x5)
+[0622/211240.300:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Acesso negado. (0x5)
+[0622/211240.304:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0622/211240.307:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0622/211535.332:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Acesso negado. (0x5)
+[0622/211535.986:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Acesso negado. (0x5)
+[0622/211536.076:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0622/211536.153:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0622/212900.748:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Acesso negado. (0x5)
+[0622/212901.479:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Acesso negado. (0x5)
+[0622/212901.482:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0622/212901.482:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[1214/144653.322:ERROR:process_info.cc(632)] range at 0x345a2f6800000000, size 0x1fc fully unreadable
+[1214/144653.432:ERROR:process_info.cc(632)] range at 0x345a2f8800000000, size 0x1fc fully unreadable
+[1214/144653.432:ERROR:process_info.cc(632)] range at 0x0, size 0x1fc fully unreadable
+[0319/140609.277:ERROR:file_io.cc(134)] WriteFile: O pipe está sendo fechado. (0xE8)
